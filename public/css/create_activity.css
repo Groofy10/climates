@@ -1,0 +1,190 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.content {
+    background: url(../Assets/requestformbackground.png);
+    position: relative;
+    margin-top: -95px;
+}
+
+.content .container {
+    padding: 30px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    background-color: white;
+    padding: 30px 0px;
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 15px;
+    width: 80%;
+}
+
+.center h1 {
+    color: #48773e;
+    margin: 0 0 10px 0;
+}
+
+.inputfield {
+    display: flex;
+    justify-content: start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.rowstartend {
+    display: flex;
+    gap: 20px;
+}
+
+.labeltext {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.textbox {
+    border: none;
+    background-color: rgb(220, 220, 220, 0.5);
+    border-radius: 5px;
+    width: 380px;
+    padding: 10px 10px;
+}
+
+.textboxDateTime {
+    border: none;
+    background-color: rgb(220, 220, 220, 0.5);
+    border-radius: 5px;
+    width: 110px;
+    padding: 10px 10px;
+}
+
+.textboxdesc {
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(220, 220, 220, 0.5);
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+    min-height: 100px;
+}
+
+.textboxdesc::placeholder {
+    text-align: left;
+    vertical-align: top;
+    color: #888;
+}
+
+.textboxreq {
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(220, 220, 220, 0.5);
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+    min-height: 100px;
+}
+
+.textboxreq::placeholder {
+    text-align: left;
+    vertical-align: top;
+    color: #888;
+}
+
+.rbl-options {
+    display: flex;
+    align-items: center;
+}
+
+.agreements {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.agreements p {
+    margin: 0;
+    color: #153e35;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.checkbox {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.checkbox span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button {
+    display: flex;
+    align-self: center;
+}
+
+.buttonRequest {
+    border: none;
+    padding: 10px 0;
+    width: 200px;
+    background-color: #153e35;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    transition: transform 0.2s ease;
+}
+
+.buttonRequest:hover {
+    transform: scale(1.1);
+}
+
+.required {
+    color: red;
+}
+
+.labelError {
+    color: red;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}

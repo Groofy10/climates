@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.banner {
+    position: relative;
+    margin-top: -95px;
+    background: url(../Assets/bannerdetail.png);
+    height: 13vh;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start !important;
+    gap: 20px;
+    width: 95%;
+    margin-inline: auto;
+    padding: 20px;
+}
+
+.container2 .head {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container2 .title {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0;
+}
+
+.container2 .subtitle {
+    font-style: italic;
+    font-size: 16px;
+    margin: 0;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.authors .by {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.authors .author {
+    color: #48773e;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.container2 .articleimage {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.textpublished {
+    font-weight: 400;
+    color: #48773e;
+}
+
+.datetime {
+    font-weight: 700;
+    color: #48773e;
+}
+
+.labelcontent {
+    max-width: 100%;
+    margin: 0;
+}

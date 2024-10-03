@@ -1,0 +1,183 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.content {
+    position: relative;
+    margin-top: -95px;
+    font-family: "Inter", sans-serif;
+    background: #78ac8c;
+}
+
+.content .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.content .container .form {
+    margin-top: 95px;
+}
+
+.content .container .txt h3 {
+    text-align: center;
+    font-size: 21px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.content .container .form {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form .inputs .rows {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form .inputs .rows input {
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: #f0ecec;
+    padding: 7px 10px;
+    width: 300px;
+}
+
+.form .inputs .rows .label {
+    font-size: 14px;
+}
+
+.form .inputs .rows .errorMessage {
+    font-family: "Inter", sans-serif;
+    color: red;
+    font-size: 14px;
+}
+
+.form .noaccount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.form .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.form .text p {
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.form .text a {
+    color: blue;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+.form .noaccount .ButtonRegister {
+    border-radius: 10px;
+    width: 250px;
+    border: none;
+    padding: 10px 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid rgb(220, 220, 220);
+    cursor: pointer;
+}
+
+.form .noaccount .ButtonRegister:hover {
+    background-color: white;
+}
+
+.form .loginchoices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    font-family: "Inter", sans-serif;
+}
+
+.form .loginchoices .text span {
+    display: inline-block;
+}
+
+.form .loginchoices .text span:before {
+    border-top: 1px solid rgb(220, 220, 220);
+    display: block;
+    height: 1px;
+    content: "";
+    width: 40%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.form .loginchoices .text span:after {
+    border-top: 1px solid rgb(220, 220, 220);
+    display: block;
+    height: 1px;
+    content: "";
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.form .loginchoices .text span:after {
+    right: 0;
+    left: auto;
+}
+
+.form .choices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form .choices a {
+    border-radius: 10px;
+    border: 1px solid rgb(220, 220, 220);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 7px 10px;
+    width: 250px;
+    color: black;
+    font-family: "Inter", sans-serif;
+}
+
+.noaccount {
+    margin-top: 1rem;
+}
+
+.choices {
+    margin-top: 1rem;
+}
+
+.loginchoices {
+    margin-top: 1rem;
+}

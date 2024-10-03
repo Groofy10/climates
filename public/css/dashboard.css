@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.backgroundnavbar {
+    background-color: #4064d4;
+    height: 95px;
+    width: 100%;
+    position: relative;
+    margin-top: -95px;
+}
+
+.content {
+    height: 80vh;
+}
+
+.box h1 {
+    background-color: rgb(220, 220, 220);
+    margin: 0px;
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 10px 10px 0px 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    border-bottom: 1px solid rgb(220, 220, 220, 0.8);
+}
+
+.box p {
+    padding: 20px;
+    font-size: 16px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.box {
+    border: 1px solid rgb(220, 220, 220, 0.5);
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(220, 220, 220, 0.3);
+}

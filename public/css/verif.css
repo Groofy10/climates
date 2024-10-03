@@ -1,0 +1,106 @@
+body {
+    background-image: url(../Assets/requestformbackground.png);
+    padding: 0px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.content {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+}
+
+.content .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.content .container .txt h3 {
+    text-align: center;
+    font-size: 21px;
+    margin: 0px;
+}
+
+.content .container .form {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form .inputs .rows {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.button-rows {
+    display: flex;
+    gap: 10px;
+}
+
+.form .inputs .rows input {
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: #f0ecec;
+    padding: 7px 10px;
+    width: 300px;
+}
+
+.form .inputs .rows .errorMessage {
+    font-family: "Inter", sans-serif;
+    color: red;
+    font-size: 14px;
+}
+
+.ButtonUp {
+    border-radius: 10px;
+    width: 150px !important;
+    padding: 10px 10px !important;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid rgb(220, 220, 220) !important;
+    cursor: pointer;
+}
+
+.ButtonUp:hover {
+    background-color: white !important;
+}
+
+.ButtonSv {
+    border-radius: 10px;
+    width: 150px !important;
+    padding: 10px 10px !important;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border: none !important;
+    cursor: pointer;
+    background-color: rgb(120, 172, 140) !important;
+}
+
+.ButtonSv:hover {
+    background-color: rgb(120, 172, 140, 0.7) !important;
+}
+
+.uploaded {
+    width: 350px;
+    height: auto;
+}

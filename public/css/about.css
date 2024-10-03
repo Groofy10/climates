@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.banner {
+    position: relative;
+    margin-top: -95px;
+    background-image: url("../Assets/backgroundmove.png");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.banner .container h1 {
+    margin: 0px;
+    font-size: 50px;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.aboutclimates .container {
+    width: 85%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Inter", sans-serif;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.aboutclimates .container h1 {
+    margin: 0px;
+    color: green;
+}
+
+.aboutclimates .container p {
+    margin: 0px;
+    text-align: justify;
+}
+
+.sdg .container {
+    width: 85%;
+    padding: 30px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.sdg .container .details {
+    display: flex;
+    align-content: start;
+    justify-content: center;
+    gap: 25px;
+}
+
+.sdg .container .details .climatelogo {
+    width: 150px;
+    height: auto;
+}
+
+.sdg .container .details .more {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sdg .container .details .more a {
+    background-color: #407c44;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 16px;
+    transition: transform 0.2s;
+}
+
+.sdg .container .details .more a:hover {
+    transform: scale(1.05);
+}
+
+.sdg .container .details .more a img {
+    width: 20px;
+    height: auto;
+    filter: grayscale(100%) invert(100%);
+}
+
+.sdg .container h1 {
+    margin: 0px;
+    color: green;
+}
+
+.sdg .container p {
+    margin: 0px;
+    text-align: justify;
+}
+
+.history {
+    margin-bottom: 30px;
+}
+
+.history img {
+    width: 400px;
+    height: auto;
+}
+
+.history .container {
+    width: 85%;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    gap: 20px;
+    font-family: "Inter", sans-serif;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.history .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.history h1 {
+    margin: 0px;
+    color: green;
+}
+
+.history p {
+    margin: 0px;
+    text-align: justify;
+}

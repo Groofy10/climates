@@ -1,0 +1,140 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.content {
+    position: relative;
+    margin-top: -95px;
+    font-family: "Inter", sans-serif;
+    background: #78ac8c;
+}
+
+.content .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.content .container .form {
+    margin-top: 95px;
+}
+
+.content .container .txt h3 {
+    text-align: center;
+    font-size: 21px;
+    margin: 0px;
+}
+
+.content .container .form {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form .inputs .rows {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form .inputs .rows input {
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: #f0ecec;
+    padding: 7px 10px;
+    width: 300px;
+}
+
+.form .inputs .rows .label {
+    font-size: 14px;
+}
+
+.form .inputs .rows span {
+    font-size: 14px;
+}
+
+.form .inputs .rows span a {
+    color: blue;
+}
+
+.form .inputs .rows .errorMessage {
+    font-family: "Inter", sans-serif;
+    color: red;
+    font-size: 14px;
+}
+
+.form .edit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form .update {
+    display: flex;
+    justify-content: start;
+}
+
+.form .ButtonEdit {
+    border-radius: 10px;
+    width: 150px;
+    border: none;
+    padding: 10px 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid rgb(220, 220, 220);
+    cursor: pointer;
+    background-color: rgb(120, 172, 140, 0.7);
+    text-align: center;
+}
+
+.form .ButtonEdit:hover {
+    background-color: rgb(120, 172, 140, 0.4);
+}
+
+.form .ButtonSubmit {
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+    padding: 10px 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid rgb(220, 220, 220);
+    cursor: pointer;
+    background-color: rgb(120, 172, 140, 0.7);
+    text-align: center;
+}
+
+.form .ButtonSubmit:hover {
+    background-color: rgb(120, 172, 140, 0.4);
+}
+
+.form .ButtonCancel {
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+    padding: 10px 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid rgb(220, 220, 220);
+    cursor: pointer;
+    text-align: center;
+}
+
+.form .ButtonCancel:hover {
+    background-color: white;
+}

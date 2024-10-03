@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.backgroundnavbar {
+    background-color: #4064d4;
+    height: 95px;
+    width: 100%;
+    position: relative;
+    margin-top: -95px;
+}
+
+.content {
+    min-height: 80vh;
+}
+
+.detail {
+    border: 1px solid rgb(220, 220, 220, 0.8);
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.label {
+    font-weight: 600;
+}
+
+.detail h2 {
+    margin: 0px;
+    font-weight: 600;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.split {
+    display: flex;
+    gap: 20px;
+    align-items: start;
+}
+
+.split .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.split .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputs .rows {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 0.8rem;
+}
+
+.errorMessage {
+    font-family: "Inter", sans-serif;
+    color: red;
+    font-size: 14px;
+}
+
+.textboxcss {
+    font-size: 14px;
+    height: 20px;
+}
+
+.textboxDescReqcss {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(220, 220, 220, 0.5);
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgb(220, 220, 220);
+    resize: none;
+    min-height: 100px;
+}
+
+.textboxDescReqcss::placeholder {
+    text-align: left;
+    vertical-align: top;
+    color: #888;
+}
+
+.inputs .rows input {
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: #f0ecec;
+    padding: 7px 10px;
+    width: 300px;
+}
+
+.dropdown {
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: #f0ecec;
+    padding: 7px 10px;
+    width: 150px;
+}
+
+.form .inputs .rows .errorMessage {
+    font-family: "Inter", sans-serif;
+    color: red;
+    font-size: 14px;
+}
+
+.ButtonSave {
+    border-radius: 10px;
+    width: 300px;
+    border: none;
+    padding: 10px 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: #4064d4;
+    text-align: center;
+}
+
+.ButtonSave:hover {
+    background-color: rgb(64, 100, 212, 0.9);
+}
+
+.ktpimage {
+    width: 300px;
+    height: auto;
+}
+
+.ButtonDelete {
+    border-radius: 8px !important;
+    width: 150px !important;
+    border: none;
+    padding: 10px 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: white;
+    border: none !important;
+    cursor: pointer;
+    background-color: red !important;
+    text-align: center;
+}
+
+.thumbnail {
+    width: 20rem;
+}

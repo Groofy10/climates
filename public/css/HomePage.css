@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.banner {
+    position: relative;
+    margin-top: -95px;
+    background-image: url("../Assets/bannerhome2.png");
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.banner .container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.banner .container h1 {
+    margin: 0px;
+    font-size: 60px;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.banner .container .joinbtn {
+    font-family: "Inter", sans-serif;
+    padding: 10px 30px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.banner .container .joinbtn:hover {
+    transform: scale(1.1);
+}
+
+.banner .container .joinbtn:hover {
+    background-color: green;
+    color: white;
+}
+
+.ourfocus .head {
+    background-color: white;
+    width: 100%;
+}
+
+.ourfocus .head h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+.ourfocus-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ourfocus-container .nature {
+    background-image: url(../Assets/nature-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 506px;
+    height: 400px;
+    display: flex;
+    align-items: end;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+.nature h2 {
+    margin-left: 20px;
+}
+
+.ourfocus-container .people {
+    background-image: url(../Assets/people-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 507px;
+    display: flex;
+    align-items: end;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+.people h2 {
+    margin-left: 20px;
+}
+
+.ourfocus-container .education {
+    background-image: url(../Assets//education-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 507px;
+    display: flex;
+    align-items: end;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+.education h2 {
+    margin-left: 20px;
+}
+
+.why .container {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    align-content: center;
+}
+
+.why .leftcontent h1 {
+    width: 500px;
+    font-size: 72px;
+    margin: 0px;
+}
+
+.why .leftcontent .wait {
+    color: #ff543e;
+}
+
+.why .leftcontent .impact {
+    color: #48773e;
+    font-weight: bolder;
+}
+
+.why .rightcontent {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.why .rightcontent .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why .rightcontent .volun {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(220, 220, 220, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    height: 250px;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(-45deg, #015f2c, #56b541, #015f2c);
+    animation: gradient 5s ease infinite;
+    background-size: 400% 400%;
+    width: 250px;
+    justify-content: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.why .volun h2 {
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+
+.why .volun p {
+    color: white;
+}
+
+.why .volun .buttonVolunteer {
+    font-family: "Inter", sans-serif;
+    padding: 10px 30px;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    color: #48773e;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.why .volun .buttonVolunteer:hover {
+    transform: scale(1.1);
+}
+
+.why .rightcontent .donate {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(220, 220, 220, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    height: 250px;
+    align-items: center;
+    gap: 10px;
+    width: 250px;
+    justify-content: center;
+}
+
+.why .donate .buttonDonate {
+    font-family: "Inter", sans-serif;
+    padding: 10px 30px;
+    background-color: #48773e;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.why .donate .buttonDonate:hover {
+    transform: scale(1.1);
+}
+
+.why .donate h2 {
+    margin: 0px;
+    color: #48773e;
+    text-align: center;
+}
+
+.why .rightcontent p {
+    margin: 0px;
+    text-align: center;
+    width: 200px;
+}
+
+.blog {
+    margin-bottom: 30px;
+}
+
+.blog .blog-container {
+    display: flex;
+    align-items: center;
+}
+
+.blog .blog-text {
+    padding: 20px 40px;
+    background-color: #ff543e;
+    height: 618px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 0px 200px 0px 0px;
+    gap: 80px;
+}
+
+.blog .buttonExplore {
+    font-family: "Inter", sans-serif;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.blog .buttonExplore:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #ff543e;
+}
