@@ -53,11 +53,14 @@ class LoginController extends Controller
 
         $registeredUser = User::where("google_id", $googleUser->id)->first();
 
+        $fullName = $googleUser->getName();
+        $firstName = explode(' ', trim($fullName))[0];
+
         if (!$registeredUser) {
             $user = User::updateOrCreate([
                 'google_id' => $googleUser->id,
             ], [
-                'username' => Str::slug($googleUser->getName()),
+                'username' => $firstName,
                 'email' => $googleUser->email,
                 'password' => Hash::make('123'),
                 'google_token' => $googleUser->token,

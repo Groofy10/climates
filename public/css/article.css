@@ -8,7 +8,7 @@ body {
     position: relative;
     margin-top: -95px;
     background: url(../Assets/bannerdetail.png);
-    height: 40vh;
+    min-height: 40vh;
 }
 
 .banner .container h1 {

@@ -42,6 +42,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        } 
+
+        .author-column{
+            max-width:8rem;
         }
     </style>
 </head>
@@ -77,7 +81,7 @@
                             <tr>
                                 <td class="text-center">{{ $article->id }}</td>
                                 <td class="text-center title-column">{{ $article->articleTitle }}</td>
-                                <td class="text-center ">{{ $article->articleAuthor }}</td>
+                                <td class="text-center author-column">{{ $article->articleAuthor }}</td>
                                 <td class="text-center ">{{ $article->created_at->diffForHumans() }}</td>
                                 <td class="text-center action-column ">
                                     <a href="{{ route('dashboard.article.edit',$article->id) }}" class="btn btn-outline-success btn-sm">Edit Detail</a>

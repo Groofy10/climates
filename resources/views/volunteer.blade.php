@@ -107,10 +107,6 @@
                         <p>
                             When you take the first step, you inspire others to join in, forming an unstoppable wave of solidarity. No need to wait. No need for permission. Start today. Be the catalyst for a new movement that brings hope and real change to our world.
                         </p>
-                        <form action="" method="POST"> 
-                            @csrf
-                            <button type="submit" class="buttonStart">Start a Movement</button>
-                        </form>
                     </div>
                 </div>
             </div>

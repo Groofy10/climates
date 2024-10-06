@@ -30,7 +30,7 @@
         }
 
         .action-column {
-         max-width: 5.5rem;
+         width:5.5rem;
          overflow: hidden;
          text-overflow: ellipsis;
          white-space: nowrap;

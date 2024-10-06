@@ -31,11 +31,11 @@ Route::middleware(['web'])->group(function () {
     Route::post('/login', [LoginController::class, 'authenticate'])->name('login.authenticate');
 });
 
-Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
+Route::post('/logout', [LoginController::class, 'logout'])->name('logout')->middleware('auth');
 
 Route::get('/register', function () {
     return view('register');
-})->name('register');
+})->name('register')->middleware('guest');
 
 Route::middleware(['web'])->group(function () {
     Route::post('/register', [RegisterController::class, 'store'])->name('register.store');
@@ -43,11 +43,11 @@ Route::middleware(['web'])->group(function () {
 
 Route::get('/dashboard', function () {
     return view('dashboard/dashboard');
-})->name('admin.dashboard');
+})->name('admin.dashboard')->middleware('auth');
 
 Route::get('/dashboard/create-activity', function () {
     return view('dashboard/create_activity');
-})->name('create-activity');
+})->name('create-activity')->middleware('auth');
 
 Route::resource('/dashboard/users', DashboardUserController::class)->middleware('auth')->names(['index' => 'dashboard.user']);
 

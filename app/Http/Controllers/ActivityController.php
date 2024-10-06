@@ -94,14 +94,24 @@ class ActivityController extends Controller
 
 
         $activity = Activity::find($request->activity_id);
+        $user = User::find($request->user_id);
 
-        if ($activity->users()->where('user_id', $request->user_id)->exists()) {
+
+        if ($user->verifStatus === 'Pending') {
+            return redirect()->back()->with('error', 'Your account needs to be verified!');
+        }
+
+        if ($user->verifStatus === 'Not Verified') {
+            return redirect()->back()->with('error', 'Please verify your account first!');
+        }
+
+        if ($activity->users()->where('id', $request->user_id)->exists()) {
             return redirect()->back()->with('error', 'You have already joined this activity.');
         }
 
-        // if ($activity->activityCurrentParticipants >= $activity->capacity) {
-        //     return redirect()->back()->with('error', 'This activity is already at full capacity.');
-        // }
+        if ($activity->activityCurrentParticipants >= $activity->capacity) {
+            return redirect()->back()->with('error', 'This activity is already at full capacity.');
+        }
 
 
         $activity->users()->attach($request->user_id);

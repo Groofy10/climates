@@ -52,16 +52,16 @@
                                 <h2>Volunteer</h2>
                             </div>
                             <p>Apapun bantuanmu berarti besar bagi mereka.</p>
-                            <a href="/" class="btn buttonVolunteer">Join Volunteer</a>
+                            <a href="{{ route('volunteer') }}" class="btn buttonVolunteer">Join Volunteer</a>
                         </div>
         
                         <div class="donate">
                             <div class="top">
                                 <img class="image" src="Assets/Hand Holding Heart.png" alt="Donate Image" />
-                                <h2>Donate</h2>
+                                <h2>Article</h2>
                             </div>
-                            <p>Berapapun donasimu berarti besar bagi mereka.</p>
-                            <a href="/" class="btn buttonDonate">Start Giving</a>
+                            <p>Pengetahuan penting bagi kita semua.</p>
+                            <a href="{{ route('article') }}" class="btn buttonDonate">Start Reading</a>
                         </div>
                     </div>
                 </div>
